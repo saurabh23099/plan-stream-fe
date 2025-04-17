@@ -46,8 +46,8 @@ const Video = ({ video }) => {
       >
         <div className="relative h-48 md:h-56 rounded-xl hover:rounded-none duration-200 overflow-hidden">
           <VideoPlayer
-            videoUrl={video?.video_url}
-            poster={video?.thumbnail_url}
+            videoUrl={video?.videoUrl}
+            poster={video?.thumbnailUrl}
             muted={muted}
             videoRef={videoRef}
           />
@@ -59,7 +59,7 @@ const Video = ({ video }) => {
           <div>
             <VideoTitle title={video?.title} />
             <VideoAuthor author={video?.author} />
-            <VideoMeta views={video?.views} uploadTime={video?.upload_time} />
+            <VideoMeta views={video?.views} uploadTime={video?.uploadTime} />
           </div>
         </div>
       </div>

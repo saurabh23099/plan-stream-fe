@@ -1,4 +1,4 @@
-# 🎬 YouTube Video Preview 
+# VStream 
 
 This project is a simplified YouTube-like application that allows users to view video previews, titles, authors, views, and upload dates. The app is built with **React + Vite + TypeScript** on the frontend and **Laravel** on the backend.
 
