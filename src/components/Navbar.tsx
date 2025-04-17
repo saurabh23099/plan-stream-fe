@@ -1,7 +1,5 @@
 import React, { useState, KeyboardEvent, JSX } from "react";
 import { CiSearch } from "react-icons/ci";
-import Images from "./Images";
-import logo from '../assets/logo.png';
 import SearchInput from './SearchInput';
 import Button from "./Button";
 import { useDispatch, useSelector } from "react-redux";
@@ -35,7 +33,7 @@ function Navbar({ setSearchQuery, triggerSearch }: NavbarProps): JSX.Element {
         <div className="fixed top-0 left-0 right-0 w-full bg-white shadow-md z-50">
             <div className="flex items-center justify-between px-6 py-8 max-w-[1440px] mx-auto">
                 <div className="flex items-center space-x-4 min-w-[120px]">
-                    <Images  src={logo}/>
+                   
                 </div>
                 <div className="flex items-center w-full max-w-[600px] mx-6">
                     <div className="flex flex-1 px-4 py-2 border border-gray-100 rounded-l-full">
